@@ -33,7 +33,7 @@ font-weight:bold;
 animation:piscando 1s infinite;
 }
 
-/* animaÁ„o */
+/* anima√ß√£o */
 
 @keyframes piscando{
 0%{opacity:1;}
@@ -124,7 +124,7 @@ cursor:pointer;
 border-radius:5px;
 }
 
-/* bot„o comprar */
+/* bot√£o comprar */
 
 .comprar{
 display:block;
@@ -149,7 +149,7 @@ margin-top:20px;
 color:#555;
 }
 
-/* benefÌcios */
+/* benef√≠cios */
 
 .beneficios{
 background:#f7f7f7;
