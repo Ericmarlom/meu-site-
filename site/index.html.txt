@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Império Grifes | LV Skate</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="topo">
+
+<div class="loja">
+
+IMPÉRIO GRIFES
+
+</div>
+
+<div class="oferta">
+
+?? OFERTA RELÂMPAGO ??
+
+</div>
+
+</div>
+
+</header>
+
+
+<section class="produto">
+
+<div class="galeria">
+
+<img id="imagemPrincipal" src="img1.webp">
+
+<div class="miniaturas">
+
+<img src="img1.webp" onclick="trocarImagem(this)">
+<img src="img2.webp" onclick="trocarImagem(this)">
+<img src="img3.webp" onclick="trocarImagem(this)">
+<img src="img4.webp" onclick="trocarImagem(this)">
+
+</div>
+
+</div>
+
+
+<div class="info">
+
+<h1>LV Skate Preto & Branco</h1>
+
+<p class="descricao">
+
+O tênis mais desejado do momento.  
+Design premium, confortável e perfeito para qualquer estilo.
+
+</p>
+
+<div class="precos">
+
+<span class="antigo">De R$299,90</span>
+
+<span class="novo">R$79,90</span>
+
+</div>
+
+<p class="estoque">
+
+?? Apenas <b>17 unidades</b> restantes!
+
+</p>
+
+<h3>Escolha seu tamanho</h3>
+
+<div class="tamanhos">
+
+<button onclick="selecionar(this)">38</button>
+<button onclick="selecionar(this)">39</button>
+<button onclick="selecionar(this)">40</button>
+<button onclick="selecionar(this)">41</button>
+<button onclick="selecionar(this)">42</button>
+<button onclick="selecionar(this)">43</button>
+
+</div>
+
+<a class="comprar" href="#">
+
+COMPRAR AGORA
+
+</a>
+
+<div class="garantias">
+
+?? Frete para todo Brasil<br>
+?? Pagamento seguro<br>
+?? Troca garantida
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="beneficios">
+
+<h2>Por que comprar na Império Grifes?</h2>
+
+<div class="grid">
+
+<div class="card">?? Design exclusivo</div>
+<div class="card">?? Super confortável</div>
+<div class="card">? Qualidade Premium</div>
+<div class="card">?? Envio rápido</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 Império Grifes
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
