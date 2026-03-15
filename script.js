@@ -214,6 +214,22 @@ padding:20px;
 .miniaturas img{
 width:60px;
 }
+function trocarImagem(img){
 
+document.getElementById("imagemPrincipal").src = img.src;
+
+}
+
+function selecionar(btn){
+
+document.querySelectorAll(".tamanhos button").forEach(b=>{
+b.style.background="white"
+b.style.color="black"
+})
+
+btn.style.background="black"
+btn.style.color="white"
+
+}
 }
 
